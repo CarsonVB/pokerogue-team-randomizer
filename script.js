@@ -164,6 +164,9 @@ function createParty(){
     }
   }
   while ((budget > 0) && (slots > 0)) {
+    if (starterList.length == 0){
+      break;
+    }
     const mons = Object.keys(starterList);
     //ensure all points are used to stop really unfun teams of 6 1pt bug types
     if ((slots == 1) && (budget > 1)) {
@@ -172,6 +175,9 @@ function createParty(){
           delete starterList[mon];
         }
       }
+    }
+    if (starterList.length == 0){
+      break;
     }
     var randomMon = mons[Math.floor(Math.random() * mons.length)];
     finalList.push(randomMon);
@@ -182,6 +188,9 @@ function createParty(){
       if (starterList[mon].cost > budget) {
         delete starterList[mon];
       }
+    }
+    if (starterList.length == 0){
+      break;
     }
   }
   for (const mon in finalList){
