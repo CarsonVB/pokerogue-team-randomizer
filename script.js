@@ -4,6 +4,7 @@ var budget = 10;
 var saveData = {};
 var img_slots = ['slot1', 'slot2', 'slot3', 'slot4', 'slot5', 'slot6'];
 
+//redo for tiered set later
 const legendaries = [144, 145, 146, 150, 151, 243, 244, 245, 249, 250, 251, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 480, 481, 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 716, 717, 718, 719, 720, 721, 772, 773, 785, 786, 787, 788, 789, 790, 791, 792, 793, 794, 795, 796, 797, 798, 799, 800, 801, 803, 804, 805, 806, 807, 808, 809, 888, 889, 890, 891, 892, 893, 894, 895, 896, 897, 898, 905, 984, 985, 986, 987, 988, 989, 990, 991, 992, 993, 994, 995, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1014, 1015, 1016, 1017, 1020, 1021, 1022, 1023, 1024, 1025];
 
 const attack = {
@@ -137,7 +138,7 @@ function createParty(){
           continue;
         }
       }else{
-        if (dexSave[mon]['$i'][1] < ivs['atk'] && dexSave[mon]['$i'][3] < ivs['spa']) {
+        if ((dexSave[mon]['$i'][1] < ivs['atk']) && (dexSave[mon]['$i'][3] < ivs['spa'])) {
           continue;
         }
       }
@@ -164,6 +165,14 @@ function createParty(){
   }
   while ((budget > 0) && (slots > 0)) {
     const mons = Object.keys(starterList);
+    //ensure all points are used to stop really unfun teams of 6 1pt bug types
+    if ((slots == 1) && (budget > 1)) {
+      for (const mon of Object.keys(starterList)) {
+        if (starterList[mon].cost < budget) {
+          delete starterList[mon];
+        }
+      }
+    }
     var randomMon = mons[Math.floor(Math.random() * mons.length)];
     finalList.push(randomMon);
     budget -= starterList[randomMon].cost;
@@ -176,6 +185,7 @@ function createParty(){
     }
   }
   for (const mon in finalList){
+    //not sure of a good resource for images/sprites of pokemon that can be easily accessed based on dex # or name. pokemon.com rate limits after ~20 images
     document.getElementById(img_slots[mon]).src = 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/' + String(finalList[mon]).padStart(3, '0') + '.png';
     document.getElementById(img_slots[mon]).alt = pokedex[finalList[mon]].name;
     document.getElementById(img_slots[mon]+'_text').innerHTML = pokedex[finalList[mon]].name;
