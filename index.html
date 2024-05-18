@@ -1,0 +1,129 @@
+<html lang='es'>
+<head>
+  <meta charset='utf-8'>
+  <style>
+    .tooltip {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        color: blue;
+    }
+
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        border-radius: 5px;
+        padding: 5px;
+        position: absolute;
+        z-index: 1;
+        top: 50%;
+        left: 125%; /* Position to the right of the icon */
+        transform: translateY(-50%);
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .tooltip .tooltiptext::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: 100%; /* Position the arrow on the left of the tooltip */
+        margin-top: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent #555 transparent transparent;
+    }
+
+    * {
+    box-sizing: border-box;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  </style>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js'></script>
+  <script src='pokedex.json'></script>
+</head>
+<body>
+    Exported .prsv data: <input type='file' id='fileInput' accept='.prsv' />
+    <fieldset>
+      <legend>Settings</legend>
+      <input type='checkbox' id='unwon' name='unwon' checked />
+      <label for='unwon'>Only Pokemon not yet won a classic run</label><br>
+      <input type='checkbox' id='legends' name='legends' unchecked />
+      <label for='legends'>Legendaries/UBs/Paradox</label><br>
+      <input type='number' id='budget' name='budget' min='1' max='10' value='10' />
+      <label for='budget'>Budget</label><br>
+      <div>
+        Minimum IVs:<br>
+        <input type='checkbox' id='primaryAtk' name='primaryAtk' onchange='atkToggle()' unchecked />
+        <label for='primaryAtk'>Primary attack stat only
+          <span class="tooltip">?
+            <span class="tooltiptext">Only the highest of Atk or SpAtk of the Pokemon's BST will be considered, if they are equal then as long as either Atk or SpAtk is >= the minimum it is included</span>
+          </span>
+        </label><br>
+        <input type='number' id='hp' min='0' max='31' value='10' />
+        <label for='hp'>HP</label><br>
+        <div id='primaryAtkChk' style='display:none'>
+          <input type='number' id='sharedAtk' min='0' max='31' value='10' />
+          <label for='sharedAtk'>Primary Attack Stat</label><br>
+        </div>
+        <div id='atkChk'>
+          <input type='number' id='atk' min='0' max='31' value='10' />
+          <label for='atk'>Atk</label><br>
+          <input type='number' id='spa' min='0' max='31' value='10' />
+          <label for='spa'>SpAtk</label><br>
+        </div>
+        <input type='number' id='def' min='0' max='31' value='10' />
+        <label for='def'>Def</label><br>
+        <input type='number' id='spd' min='0' max='31' value='10' />
+        <label for='spd'>SpDef</label><br>
+        <input type='number' id='spe' min='0' max='31' value='10' /
+        ><label for='spe'>Speed</label><br>
+      </div>
+    </fieldset>
+    <button id='goButton' style='display:none' type='button' onclick='createParty()'>Create party!</button><br>
+    <div class="row">
+      <div class="column">
+        <img id='slot1' src="" alt="" style="width:100%">
+        <div id='slot1_text' style='text-align: center;'></div>
+      </div>
+      <div class="column">
+        <img id='slot2' src="" alt="" style="width:100%">
+        <div id='slot2_text' style='text-align: center;'></div>
+      </div>
+      <div class="column">
+        <img id='slot3' src="" alt="" style="width:100%">
+        <div id='slot3_text' style='text-align: center;'></div>
+      </div>
+      <div class="column">
+        <img id='slot4' src="" alt="" style="width:100%">
+        <div id='slot4_text' style='text-align: center;'></div>
+      </div>
+      <div class="column">
+        <img id='slot5' src="" alt="" style="width:100%">
+        <div id='slot5_text' style='text-align: center;'></div>
+      </div>
+      <div class="column">
+        <img id='slot6' src="" alt="" style="width:100%">
+        <div id='slot6_text' style='text-align: center;'></div>
+      </div>
+    </div>
+    <script src='script.js'></script>
+</body>
+</html>
