@@ -45,7 +45,7 @@
     * {
     box-sizing: border-box;
   }
-  
+
   .row {
     display: flex;
   }
@@ -54,13 +54,56 @@
     flex: 33.33%;
     padding: 5px;
   }
+  input[type=number]{
+  	width: 45px;
+    height: 28px;
+  }
+  ol {
+    counter-reset: item;
+    list-style: none;
+    padding: 0; /* Remove default padding */
+    display: flex;
+    flex-direction: column;
+  }
+  ol li {
+    position: relative;
+    padding-left: 40px; /* Adjust padding to create space for longest numbering */
+    margin-bottom: 10px; /* Adjust margin as needed */
+    line-height: 22px; /* Center the numbering vertically */
+  }
+  ol li:before {
+    content: counter(item, upper-roman);
+    background-color: var(--color);
+    counter-increment: item;
+    position: absolute;
+    text-align: center; /* Center the numbering */
+    width: 30px; /* Set a fixed width for consistent background space */
+    height: 30px; /* Set a fixed height for consistent background space */
+    line-height: 30px; /* Center the numbering vertically */
+    top: 0;
+    left: 0;
+  }
+
+  .gen-checkbox {
+    color: #ACD36C;
+  }
+
+  ol>label:nth-child(1)>li:before { --color: #ACD36C; }
+  ol>label:nth-child(2)>li:before { --color: #DCD677; }
+  ol>label:nth-child(3)>li:before { --color: #9CD7C8; }
+  ol>label:nth-child(4)>li:before { --color: #B7A3C3; }
+  ol>label:nth-child(5)>li:before { --color: #9FCADF; }
+  ol>label:nth-child(6)>li:before { --color: #DD608C; }
+  ol>label:nth-child(7)>li:before { --color: #E89483; }
+  ol>label:nth-child(8)>li:before { --color: #C97DC0; }
+  ol>label:nth-child(9)>li:before { --color: #EBC081; }
   </style>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js'></script>
   <script src='pokedex.json'></script>
 </head>
 <body>
     Exported .prsv data: <input type='file' id='fileInput' accept='.prsv' />
-    <fieldset>
+    <fieldset style='width: 31%'>
       <legend>Settings</legend>
       <input type='checkbox' id='unwon' name='unwon' checked />
       <label for='unwon'>Only Pokemon not yet won a classic run</label><br>
@@ -92,12 +135,49 @@
         <label for='def'>Def</label><br>
         <input type='number' id='spd' min='0' max='31' value='10' />
         <label for='spd'>SpDef</label><br>
-        <input type='number' id='spe' min='0' max='31' value='10' /
-        ><label for='spe'>Speed</label><br>
+        <input type='number' id='spe' min='0' max='31' value='10' />
+        <label for='spe'>Speed</label><br>
       </div>
+      Generations:
+      <ol type='I'>
+        <label for='gen1'><li><input type='checkbox' class='gen-checkbox' name='gen1' id='gen1' value=1 checked /></li></label>
+        <label for='gen2'><li><input type='checkbox' class='gen-checkbox' name='gen2' id='gen2' value=2 checked /></li></label>
+        <label for='gen3'><li><input type='checkbox' class='gen-checkbox' name='gen3' id='gen3' value=3 checked /></li></label>
+        <label for='gen4'><li><input type='checkbox' class='gen-checkbox' name='gen4' id='gen4' value=4 checked /></li></label>
+        <label for='gen5'><li><input type='checkbox' class='gen-checkbox' name='gen5' id='gen5' value=5 checked /></li></label>
+        <label for='gen6'><li><input type='checkbox' class='gen-checkbox' name='gen6' id='gen6' value=6 checked /></li></label>
+        <label for='gen7'><li><input type='checkbox' class='gen-checkbox' name='gen7' id='gen7' value=7 checked /></li></label>
+        <label for='gen8'><li><input type='checkbox' class='gen-checkbox' name='gen8' id='gen8' value=8 checked /></li></label>
+        <label for='gen9'><li><input type='checkbox' class='gen-checkbox' name='gen9' id='gen9' value=9 checked /></li></label>
+      </ol>
+      <button onclick='massCheckGens()'>(un)Select all</button><br>
+      Types:
+      <input type='checkbox' class='type-checkbox' name='bug' id='bug' value='bug' checked /><label for='bug'><img src='types/bug.png' alt='bug'></label>
+      <input type='checkbox' class='type-checkbox' name='dark' id='dark' value='dark' checked /><label for='dark'><img src='types/dark.png' alt='dark'></label>
+      <input type='checkbox' class='type-checkbox' name='dragon' id='dragon' value='dragon' checked /><label for='dragon'><img src='types/dragon.png' alt='dragon'></label>
+      <input type='checkbox' class='type-checkbox' name='electric' id='electric' value='electric' checked /><label for='electric'><img src='types/electric.png' alt='electric'></label>
+      <input type='checkbox' class='type-checkbox' name='fairy' id='fairy' value='fairy' checked /><label for='fairy'><img src='types/fairy.png' alt='fairy'></label>
+      <input type='checkbox' class='type-checkbox' name='fighting' id='fighting' value='fighting' checked /><label for='fighting'><img src='types/fighting.png' alt='fighting'></label>
+      <input type='checkbox' class='type-checkbox' name='fire' id='fire' value='fire' checked /><label for='fire'><img src='types/fire.png' alt='fire'></label>
+      <input type='checkbox' class='type-checkbox' name='flying' id='flying' value='flying' checked /><label for='flying'><img src='types/flying.png' alt='flying'></label>
+      <input type='checkbox' class='type-checkbox' name='ghost' id='ghost' value='ghost' checked /><label for='ghost'><img src='types/ghost.png' alt='ghost'></label>
+      <input type='checkbox' class='type-checkbox' name='grass' id='grass' value='grass' checked /><label for='grass'><img src='types/grass.png' alt='grass'></label>
+      <input type='checkbox' class='type-checkbox' name='ground' id='ground' value='ground' checked /><label for='ground'><img src='types/ground.png' alt='ground'></label>
+      <input type='checkbox' class='type-checkbox' name='ice' id='ice' value='ice' checked /><label for='ice'><img src='types/ice.png' alt='ice'></label>
+      <input type='checkbox' class='type-checkbox' name='normal' id='normal' value='normal' checked /><label for='normal'><img src='types/normal.png' alt='normal'></label>
+      <input type='checkbox' class='type-checkbox' name='poison' id='poison' value='poison' checked /><label for='poison'><img src='types/poison.png' alt='poison'></label>
+      <input type='checkbox' class='type-checkbox' name='psychic' id='psychic' value='psychic' checked /><label for='psychic'><img src='types/psychic.png' alt='psychic'></label>
+      <input type='checkbox' class='type-checkbox' name='rock' id='rock' value='rock' checked /><label for='rock'><img src='types/rock.png' alt='rock'></label>
+      <input type='checkbox' class='type-checkbox' name='steel' id='steel' value='steel' checked /><label for='steel'><img src='types/steel.png' alt='steel'></label>
+      <input type='checkbox' class='type-checkbox' name='water' id='water' value='water' checked /><label for='water'><img src='types/water.png' alt='water'></label><br>
+      <button onclick='massCheckTypes()'>(un)Select all</button>
     </fieldset>
     <button id='goButton' style='display:none' type='button' onclick='createParty()'>Create party!</button><br>
     <div class="row">
+      <div class="column">
+        <img id='slot0' src="" alt="" style="width:100%">
+        <div id='slot0_text' style='text-align: center;'></div>
+      </div>
       <div class="column">
         <img id='slot1' src="" alt="" style="width:100%">
         <div id='slot1_text' style='text-align: center;'></div>
@@ -117,10 +197,6 @@
       <div class="column">
         <img id='slot5' src="" alt="" style="width:100%">
         <div id='slot5_text' style='text-align: center;'></div>
-      </div>
-      <div class="column">
-        <img id='slot6' src="" alt="" style="width:100%">
-        <div id='slot6_text' style='text-align: center;'></div>
       </div>
     </div>
     <script src='script.js'></script>
