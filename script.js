@@ -126,7 +126,7 @@ function createParty(){
   var noWin = document.getElementById('unwon').checked;
   var priAtk = document.getElementById('primaryAtk').checked;
   var budget = document.getElementById('budget').value;
-  var unique = document.getElementById('unique').value;
+  var unique = document.getElementById('unique').checked;
   var gens = [];
   var types = new Set();
   var deletedTypes = new Set();
