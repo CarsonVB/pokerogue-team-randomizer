@@ -126,8 +126,11 @@ function createParty(){
   var noWin = document.getElementById('unwon').checked;
   var priAtk = document.getElementById('primaryAtk').checked;
   var budget = document.getElementById('budget').value;
+  var unique = document.getElementById('unique').value;
   var gens = [];
   var types = new Set();
+  var deletedTypes = new Set();
+  var capped = false;
 
   for (gen of document.getElementsByClassName('gen-checkbox')) {
     if (gen.checked)
@@ -208,8 +211,7 @@ function createParty(){
       "cost": cost,
       "name": pokedex[mon].name,
       "gen": pokedex[mon].gen,
-      "type1": pokedex[mon].type1,
-      "type2": pokedex[mon].type2
+      "types": pokedex[mon].types
     }
   }
   while ((budget > 0) && (slots > 0)) {
@@ -229,6 +231,30 @@ function createParty(){
     finalList.push(randomMon);
     budget -= starterList[randomMon].cost;
     slots--;
+    if (unique) {
+      for (type of starterList[randomMon].types) {
+        if (types.size == 1){
+          if (starterList[randomMon].types.length == 2) {
+            //try to prevent duplicate dual-types when 1 type left
+            var diff = starterList[randomMon].types.filter(element => !types.has(element))[0];
+            deletedTypes.add(diff);
+          }
+          //dont let types hit 0
+          capped = true;
+          break;
+        }
+        deletedTypes.add(type);
+        types.delete(type);
+      }
+      for (const mon of Object.keys(starterList)) {
+        if (starterList[mon].types.some(element => deletedTypes.has(element))){
+          delete starterList[mon];
+        } else if ((types.size == 1) && (starterList[mon].types.length == 1) && capped) {
+          //if only 1 type left, only get dual-types
+          delete starterList[mon];
+        }
+      }
+    }
     delete starterList[randomMon];
     for (const mon of Object.keys(starterList)) {
       if (starterList[mon].cost > budget) {
