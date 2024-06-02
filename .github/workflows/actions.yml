@@ -28,8 +28,8 @@ jobs:
 
       - name: commit files
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "carson.vanburen2001@gmail.com"
+          git config --local user.name "CarsonVB"
           git add -A
           git diff-index --quiet HEAD || (git commit -a -m "updated costs" --allow-empty)
 
