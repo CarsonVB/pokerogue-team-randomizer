@@ -155,9 +155,6 @@ function createParty(){
   };
 
   for (const mon of Object.keys(starterSave)) {
-    if ( mon >= 2000) {
-      break;
-    }
     if (!gens.includes(pokedex[mon].gen)){
       continue;
     }
@@ -265,7 +262,15 @@ function createParty(){
   for (const mon in finalList){
     img_slot = 'slot' + mon.toString();
     //not sure of a good resource for images/sprites of pokemon that can be easily accessed based on dex # or name. pokemon.com rate limits after ~20 images
-    document.getElementById(img_slot).src = 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/' + String(finalList[mon]).padStart(3, '0') + '.png';
+    if ('pr_num' in pokedex[finalList[mon]]) {
+      pic_no = String(pokedex[finalList[mon]].pr_num).padStart(3, '0');
+      if ('form' in pokedex[finalList[mon]]) {
+        pic_no += '_' + pokedex[finalList[mon]].form;
+      }
+    } else {
+      pic_no = String(finalList[mon]).padStart(3, '0');
+    }
+    document.getElementById(img_slot).src = 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/' + pic_no + '.png';
     document.getElementById(img_slot).alt = pokedex[finalList[mon]].name;
     document.getElementById(img_slot+'_text').innerHTML = pokedex[finalList[mon]].name;
     console.log(pokedex[finalList[mon]]);
