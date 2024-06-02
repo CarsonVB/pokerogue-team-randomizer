@@ -4,12 +4,15 @@ import requests
 pokedex = {}
 costs = {}
 
-with open("pokedex.json", "r") as infile:
-    content = infile.read()
+response = requests.get('https://raw.githubusercontent.com/CarsonVB/pokerogue-team-randomizer/main/pokedex.json')
+if response.status_code == 200:
+    content = response.text
     start = content.find("data = '[") + len("data = '[")
     end = content.rfind("]';")
     json_str = content[start:end].strip()
     pokedex = json.loads(json_str)
+else:
+    print('Failed to fetch existing pokedex data')
 
 response = requests.get('https://raw.githubusercontent.com/pagefaultgames/pokerogue/main/src/data/pokemon-species.ts')
 if response.status_code == 200:
@@ -20,7 +23,7 @@ if response.status_code == 200:
     json_str = ",".join(parts[:-1]) + "\n}"
     costs = json.loads(json_str)
 else:
-    print('Failed to fetch data')
+    print('Failed to fetch cost data')
 
 for poke in pokedex.values():
     if poke['starter']:
