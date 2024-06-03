@@ -7,8 +7,8 @@ costs = {}
 response = requests.get('https://raw.githubusercontent.com/CarsonVB/pokerogue-team-randomizer/main/pokedex.json')
 if response.status_code == 200:
     content = response.text
-    start = content.find("data = '[") + len("data = '[")
-    end = content.rfind("]';")
+    start = content.find("var data = `[") + len("var data = `[")
+    end = content.rfind("]`;")
     json_str = content[start:end].strip()
     pokedex = json.loads(json_str)
 else:
@@ -29,7 +29,7 @@ for poke in pokedex.values():
     if poke['starter']:
         poke['cost'] = costs[poke['pr_name']]
 
-output_str = "data = '[" + json.dumps(pokedex) + "]';"
+output_str = "var data = `[" + json.dumps(pokedex) + "]`;"
 
 with open("pokedex.json", "w") as outfile:
     outfile.write(output_str)
