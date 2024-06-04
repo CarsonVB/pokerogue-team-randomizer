@@ -29,7 +29,7 @@ for poke in pokedex.values():
     if poke['starter']:
         poke['cost'] = costs[poke['pr_name']]
 
-output_str = "var data = `[" + json.dumps(pokedex) + "]`;"
+output_str = "var data = `[" + json.dumps(pokedex, indent=2) + "]`;"
 
 with open("pokedex.json", "w") as outfile:
     outfile.write(output_str)
