@@ -171,7 +171,7 @@ var data = `[{
   "10": {
     "name": "caterpie",
     "gen": 1,
-    "cost": 1,
+    "cost": 2,
     "stats": {
       "hp": 45,
       "atk": 30,
@@ -285,7 +285,7 @@ var data = `[{
   "16": {
     "name": "pidgey",
     "gen": 1,
-    "cost": 2,
+    "cost": 1,
     "stats": {
       "hp": 40,
       "atk": 45,
@@ -380,7 +380,7 @@ var data = `[{
   "21": {
     "name": "spearow",
     "gen": 1,
-    "cost": 2,
+    "cost": 1,
     "stats": {
       "hp": 40,
       "atk": 60,
@@ -456,7 +456,7 @@ var data = `[{
   "25": {
     "name": "pikachu",
     "gen": 1,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 35,
       "atk": 55,
@@ -642,7 +642,7 @@ var data = `[{
   "35": {
     "name": "clefairy",
     "gen": 1,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 70,
       "atk": 45,
@@ -716,7 +716,7 @@ var data = `[{
   "39": {
     "name": "jigglypuff",
     "gen": 1,
-    "cost": 4,
+    "cost": 2,
     "stats": {
       "hp": 115,
       "atk": 45,
@@ -755,7 +755,7 @@ var data = `[{
   "41": {
     "name": "zubat",
     "gen": 1,
-    "cost": 2,
+    "cost": 3,
     "stats": {
       "hp": 40,
       "atk": 45,
@@ -794,7 +794,7 @@ var data = `[{
   "43": {
     "name": "oddish",
     "gen": 1,
-    "cost": 2,
+    "cost": 3,
     "stats": {
       "hp": 45,
       "atk": 50,
@@ -852,7 +852,7 @@ var data = `[{
   "46": {
     "name": "paras",
     "gen": 1,
-    "cost": 1,
+    "cost": 2,
     "stats": {
       "hp": 35,
       "atk": 70,
@@ -930,7 +930,7 @@ var data = `[{
   "50": {
     "name": "diglett",
     "gen": 1,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 10,
       "atk": 55,
@@ -967,7 +967,7 @@ var data = `[{
   "52": {
     "name": "meowth",
     "gen": 1,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 40,
       "atk": 45,
@@ -1115,7 +1115,7 @@ var data = `[{
   "60": {
     "name": "poliwag",
     "gen": 1,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 40,
       "atk": 50,
@@ -1171,7 +1171,7 @@ var data = `[{
   "63": {
     "name": "abra",
     "gen": 1,
-    "cost": 3,
+    "cost": 4,
     "stats": {
       "hp": 25,
       "atk": 20,
@@ -1281,7 +1281,7 @@ var data = `[{
   "69": {
     "name": "bellsprout",
     "gen": 1,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 50,
       "atk": 75,
@@ -1436,7 +1436,7 @@ var data = `[{
   "77": {
     "name": "ponyta",
     "gen": 1,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 50,
       "atk": 85,
@@ -1512,7 +1512,7 @@ var data = `[{
   "81": {
     "name": "magnemite",
     "gen": 1,
-    "cost": 3,
+    "cost": 4,
     "stats": {
       "hp": 25,
       "atk": 35,
@@ -1551,7 +1551,7 @@ var data = `[{
   "83": {
     "name": "farfetchd",
     "gen": 1,
-    "cost": 4,
+    "cost": 2,
     "stats": {
       "hp": 52,
       "atk": 90,
@@ -1571,7 +1571,7 @@ var data = `[{
   "84": {
     "name": "doduo",
     "gen": 1,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 35,
       "atk": 85,
@@ -1610,7 +1610,7 @@ var data = `[{
   "86": {
     "name": "seel",
     "gen": 1,
-    "cost": 3,
+    "cost": 1,
     "stats": {
       "hp": 65,
       "atk": 45,
@@ -1648,7 +1648,7 @@ var data = `[{
   "88": {
     "name": "grimer",
     "gen": 1,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 80,
       "atk": 80,
@@ -1685,7 +1685,7 @@ var data = `[{
   "90": {
     "name": "shellder",
     "gen": 1,
-    "cost": 4,
+    "cost": 5,
     "stats": {
       "hp": 30,
       "atk": 65,
@@ -1723,7 +1723,7 @@ var data = `[{
   "92": {
     "name": "gastly",
     "gen": 1,
-    "cost": 3,
+    "cost": 4,
     "stats": {
       "hp": 30,
       "atk": 35,
@@ -1781,7 +1781,7 @@ var data = `[{
   "95": {
     "name": "onix",
     "gen": 1,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 35,
       "atk": 45,
@@ -1801,7 +1801,7 @@ var data = `[{
   "96": {
     "name": "drowzee",
     "gen": 1,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 60,
       "atk": 48,
@@ -1838,7 +1838,7 @@ var data = `[{
   "98": {
     "name": "krabby",
     "gen": 1,
-    "cost": 2,
+    "cost": 3,
     "stats": {
       "hp": 30,
       "atk": 105,
@@ -1912,7 +1912,7 @@ var data = `[{
   "102": {
     "name": "exeggcute",
     "gen": 1,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 60,
       "atk": 40,
@@ -1988,7 +1988,7 @@ var data = `[{
   "106": {
     "name": "hitmonlee",
     "gen": 1,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 50,
       "atk": 120,
@@ -2007,7 +2007,7 @@ var data = `[{
   "107": {
     "name": "hitmonchan",
     "gen": 1,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 50,
       "atk": 105,
@@ -2026,7 +2026,7 @@ var data = `[{
   "108": {
     "name": "lickitung",
     "gen": 1,
-    "cost": 5,
+    "cost": 3,
     "stats": {
       "hp": 90,
       "atk": 55,
@@ -2045,7 +2045,7 @@ var data = `[{
   "109": {
     "name": "koffing",
     "gen": 1,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 40,
       "atk": 65,
@@ -2121,7 +2121,7 @@ var data = `[{
   "113": {
     "name": "chansey",
     "gen": 1,
-    "cost": 5,
+    "cost": 3,
     "stats": {
       "hp": 250,
       "atk": 5,
@@ -2159,7 +2159,7 @@ var data = `[{
   "115": {
     "name": "kangaskhan",
     "gen": 1,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 105,
       "atk": 95,
@@ -2178,7 +2178,7 @@ var data = `[{
   "116": {
     "name": "horsea",
     "gen": 1,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 30,
       "atk": 40,
@@ -2215,7 +2215,7 @@ var data = `[{
   "118": {
     "name": "goldeen",
     "gen": 1,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 45,
       "atk": 67,
@@ -2252,7 +2252,7 @@ var data = `[{
   "120": {
     "name": "staryu",
     "gen": 1,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 30,
       "atk": 45,
@@ -2290,7 +2290,7 @@ var data = `[{
   "122": {
     "name": "mr. mime",
     "gen": 1,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 40,
       "atk": 45,
@@ -2350,7 +2350,7 @@ var data = `[{
   "125": {
     "name": "electabuzz",
     "gen": 1,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 65,
       "atk": 83,
@@ -2369,7 +2369,7 @@ var data = `[{
   "126": {
     "name": "magmar",
     "gen": 1,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 65,
       "atk": 95,
@@ -2407,7 +2407,7 @@ var data = `[{
   "128": {
     "name": "tauros",
     "gen": 1,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 75,
       "atk": 100,
@@ -2426,7 +2426,7 @@ var data = `[{
   "129": {
     "name": "magikarp",
     "gen": 1,
-    "cost": 3,
+    "cost": 4,
     "stats": {
       "hp": 20,
       "atk": 10,
@@ -2464,7 +2464,7 @@ var data = `[{
   "131": {
     "name": "lapras",
     "gen": 1,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 130,
       "atk": 85,
@@ -2503,7 +2503,7 @@ var data = `[{
   "133": {
     "name": "eevee",
     "gen": 1,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 55,
       "atk": 55,
@@ -2866,7 +2866,7 @@ var data = `[{
   "152": {
     "name": "chikorita",
     "gen": 2,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 45,
       "atk": 49,
@@ -3068,7 +3068,7 @@ var data = `[{
   "163": {
     "name": "hoothoot",
     "gen": 2,
-    "cost": 1,
+    "cost": 2,
     "stats": {
       "hp": 60,
       "atk": 30,
@@ -3204,7 +3204,7 @@ var data = `[{
   "170": {
     "name": "chinchou",
     "gen": 2,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 75,
       "atk": 38,
@@ -3243,7 +3243,7 @@ var data = `[{
   "172": {
     "name": "pichu",
     "gen": 2,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 20,
       "atk": 40,
@@ -3262,7 +3262,7 @@ var data = `[{
   "173": {
     "name": "cleffa",
     "gen": 2,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 50,
       "atk": 25,
@@ -3281,7 +3281,7 @@ var data = `[{
   "174": {
     "name": "igglybuff",
     "gen": 2,
-    "cost": 3,
+    "cost": 1,
     "stats": {
       "hp": 90,
       "atk": 30,
@@ -3378,7 +3378,7 @@ var data = `[{
   "179": {
     "name": "mareep",
     "gen": 2,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 55,
       "atk": 40,
@@ -3490,7 +3490,7 @@ var data = `[{
   "185": {
     "name": "sudowoodo",
     "gen": 2,
-    "cost": 5,
+    "cost": 3,
     "stats": {
       "hp": 70,
       "atk": 100,
@@ -3527,7 +3527,7 @@ var data = `[{
   "187": {
     "name": "hoppip",
     "gen": 2,
-    "cost": 1,
+    "cost": 2,
     "stats": {
       "hp": 35,
       "atk": 35,
@@ -3585,7 +3585,7 @@ var data = `[{
   "190": {
     "name": "aipom",
     "gen": 2,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 55,
       "atk": 70,
@@ -3736,7 +3736,7 @@ var data = `[{
   "198": {
     "name": "murkrow",
     "gen": 2,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 60,
       "atk": 85,
@@ -3775,7 +3775,7 @@ var data = `[{
   "200": {
     "name": "misdreavus",
     "gen": 2,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 60,
       "atk": 60,
@@ -3813,7 +3813,7 @@ var data = `[{
   "202": {
     "name": "wobbuffet",
     "gen": 2,
-    "cost": 4,
+    "cost": 2,
     "stats": {
       "hp": 190,
       "atk": 33,
@@ -3832,7 +3832,7 @@ var data = `[{
   "203": {
     "name": "girafarig",
     "gen": 2,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 70,
       "atk": 80,
@@ -3890,7 +3890,7 @@ var data = `[{
   "206": {
     "name": "dunsparce",
     "gen": 2,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 100,
       "atk": 70,
@@ -3909,7 +3909,7 @@ var data = `[{
   "207": {
     "name": "gligar",
     "gen": 2,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 65,
       "atk": 75,
@@ -3948,7 +3948,7 @@ var data = `[{
   "209": {
     "name": "snubbull",
     "gen": 2,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 60,
       "atk": 80,
@@ -4024,7 +4024,7 @@ var data = `[{
   "213": {
     "name": "shuckle",
     "gen": 2,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 20,
       "atk": 10,
@@ -4198,7 +4198,7 @@ var data = `[{
   "222": {
     "name": "corsola",
     "gen": 2,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 65,
       "atk": 55,
@@ -4218,7 +4218,7 @@ var data = `[{
   "223": {
     "name": "remoraid",
     "gen": 2,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 35,
       "atk": 65,
@@ -4255,7 +4255,7 @@ var data = `[{
   "225": {
     "name": "delibird",
     "gen": 2,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 45,
       "atk": 55,
@@ -4275,7 +4275,7 @@ var data = `[{
   "226": {
     "name": "mantine",
     "gen": 2,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 85,
       "atk": 40,
@@ -4295,7 +4295,7 @@ var data = `[{
   "227": {
     "name": "skarmory",
     "gen": 2,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 65,
       "atk": 80,
@@ -4315,7 +4315,7 @@ var data = `[{
   "228": {
     "name": "houndour",
     "gen": 2,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 45,
       "atk": 60,
@@ -4428,7 +4428,7 @@ var data = `[{
   "234": {
     "name": "stantler",
     "gen": 2,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 73,
       "atk": 95,
@@ -4447,7 +4447,7 @@ var data = `[{
   "235": {
     "name": "smeargle",
     "gen": 2,
-    "cost": 3,
+    "cost": 1,
     "stats": {
       "hp": 55,
       "atk": 20,
@@ -4466,7 +4466,7 @@ var data = `[{
   "236": {
     "name": "tyrogue",
     "gen": 2,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 35,
       "atk": 35,
@@ -4523,7 +4523,7 @@ var data = `[{
   "239": {
     "name": "elekid",
     "gen": 2,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 45,
       "atk": 63,
@@ -4542,7 +4542,7 @@ var data = `[{
   "240": {
     "name": "magby",
     "gen": 2,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 45,
       "atk": 75,
@@ -4561,7 +4561,7 @@ var data = `[{
   "241": {
     "name": "miltank",
     "gen": 2,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 95,
       "atk": 80,
@@ -4828,7 +4828,7 @@ var data = `[{
   "255": {
     "name": "torchic",
     "gen": 3,
-    "cost": 3,
+    "cost": 4,
     "stats": {
       "hp": 45,
       "atk": 60,
@@ -5167,7 +5167,7 @@ var data = `[{
   "273": {
     "name": "seedot",
     "gen": 3,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 40,
       "atk": 40,
@@ -5263,7 +5263,7 @@ var data = `[{
   "278": {
     "name": "wingull",
     "gen": 3,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 40,
       "atk": 30,
@@ -5550,7 +5550,7 @@ var data = `[{
   "293": {
     "name": "whismur",
     "gen": 3,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 64,
       "atk": 51,
@@ -5642,7 +5642,7 @@ var data = `[{
   "298": {
     "name": "azurill",
     "gen": 3,
-    "cost": 3,
+    "cost": 4,
     "stats": {
       "hp": 50,
       "atk": 20,
@@ -5662,7 +5662,7 @@ var data = `[{
   "299": {
     "name": "nosepass",
     "gen": 3,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 30,
       "atk": 45,
@@ -5681,7 +5681,7 @@ var data = `[{
   "300": {
     "name": "skitty",
     "gen": 3,
-    "cost": 3,
+    "cost": 1,
     "stats": {
       "hp": 50,
       "atk": 45,
@@ -5718,7 +5718,7 @@ var data = `[{
   "302": {
     "name": "sableye",
     "gen": 3,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 50,
       "atk": 75,
@@ -5738,7 +5738,7 @@ var data = `[{
   "303": {
     "name": "mawile",
     "gen": 3,
-    "cost": 5,
+    "cost": 3,
     "stats": {
       "hp": 50,
       "atk": 85,
@@ -5816,7 +5816,7 @@ var data = `[{
   "307": {
     "name": "meditite",
     "gen": 3,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 30,
       "atk": 40,
@@ -5855,7 +5855,7 @@ var data = `[{
   "309": {
     "name": "electrike",
     "gen": 3,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 40,
       "atk": 45,
@@ -5968,7 +5968,7 @@ var data = `[{
   "315": {
     "name": "roselia",
     "gen": 3,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 50,
       "atk": 60,
@@ -5988,7 +5988,7 @@ var data = `[{
   "316": {
     "name": "gulpin",
     "gen": 3,
-    "cost": 3,
+    "cost": 1,
     "stats": {
       "hp": 70,
       "atk": 43,
@@ -6064,7 +6064,7 @@ var data = `[{
   "320": {
     "name": "wailmer",
     "gen": 3,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 130,
       "atk": 70,
@@ -6101,7 +6101,7 @@ var data = `[{
   "322": {
     "name": "numel",
     "gen": 3,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 60,
       "atk": 60,
@@ -6140,7 +6140,7 @@ var data = `[{
   "324": {
     "name": "torkoal",
     "gen": 3,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 70,
       "atk": 85,
@@ -6159,7 +6159,7 @@ var data = `[{
   "325": {
     "name": "spoink",
     "gen": 3,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 60,
       "atk": 25,
@@ -6196,7 +6196,7 @@ var data = `[{
   "327": {
     "name": "spinda",
     "gen": 3,
-    "cost": 2,
+    "cost": 1,
     "stats": {
       "hp": 60,
       "atk": 60,
@@ -6215,7 +6215,7 @@ var data = `[{
   "328": {
     "name": "trapinch",
     "gen": 3,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 45,
       "atk": 100,
@@ -6272,7 +6272,7 @@ var data = `[{
   "331": {
     "name": "cacnea",
     "gen": 3,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 50,
       "atk": 85,
@@ -6310,7 +6310,7 @@ var data = `[{
   "333": {
     "name": "swablu",
     "gen": 3,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 45,
       "atk": 40,
@@ -6349,7 +6349,7 @@ var data = `[{
   "335": {
     "name": "zangoose",
     "gen": 3,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 73,
       "atk": 115,
@@ -6368,7 +6368,7 @@ var data = `[{
   "336": {
     "name": "seviper",
     "gen": 3,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 73,
       "atk": 100,
@@ -6387,7 +6387,7 @@ var data = `[{
   "337": {
     "name": "lunatone",
     "gen": 3,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 90,
       "atk": 55,
@@ -6407,7 +6407,7 @@ var data = `[{
   "338": {
     "name": "solrock",
     "gen": 3,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 90,
       "atk": 95,
@@ -6427,7 +6427,7 @@ var data = `[{
   "339": {
     "name": "barboach",
     "gen": 3,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 50,
       "atk": 48,
@@ -6504,7 +6504,7 @@ var data = `[{
   "343": {
     "name": "baltoy",
     "gen": 3,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 40,
       "atk": 40,
@@ -6658,7 +6658,7 @@ var data = `[{
   "351": {
     "name": "castform",
     "gen": 3,
-    "cost": 2,
+    "cost": 1,
     "stats": {
       "hp": 70,
       "atk": 70,
@@ -6677,7 +6677,7 @@ var data = `[{
   "352": {
     "name": "kecleon",
     "gen": 3,
-    "cost": 4,
+    "cost": 2,
     "stats": {
       "hp": 60,
       "atk": 90,
@@ -6696,7 +6696,7 @@ var data = `[{
   "353": {
     "name": "shuppet",
     "gen": 3,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 44,
       "atk": 75,
@@ -6770,7 +6770,7 @@ var data = `[{
   "357": {
     "name": "tropius",
     "gen": 3,
-    "cost": 5,
+    "cost": 3,
     "stats": {
       "hp": 99,
       "atk": 68,
@@ -6790,7 +6790,7 @@ var data = `[{
   "358": {
     "name": "chimecho",
     "gen": 3,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 75,
       "atk": 50,
@@ -6809,7 +6809,7 @@ var data = `[{
   "359": {
     "name": "absol",
     "gen": 3,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 65,
       "atk": 130,
@@ -6828,7 +6828,7 @@ var data = `[{
   "360": {
     "name": "wynaut",
     "gen": 3,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 95,
       "atk": 23,
@@ -6847,7 +6847,7 @@ var data = `[{
   "361": {
     "name": "snorunt",
     "gen": 3,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 50,
       "atk": 50,
@@ -6884,7 +6884,7 @@ var data = `[{
   "363": {
     "name": "spheal",
     "gen": 3,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 70,
       "atk": 40,
@@ -6997,7 +6997,7 @@ var data = `[{
   "369": {
     "name": "relicanth",
     "gen": 3,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 100,
       "atk": 90,
@@ -7017,7 +7017,7 @@ var data = `[{
   "370": {
     "name": "luvdisc",
     "gen": 3,
-    "cost": 2,
+    "cost": 1,
     "stats": {
       "hp": 43,
       "atk": 30,
@@ -7646,7 +7646,7 @@ var data = `[{
   "403": {
     "name": "shinx",
     "gen": 4,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 45,
       "atk": 65,
@@ -7816,7 +7816,7 @@ var data = `[{
   "412": {
     "name": "burmy",
     "gen": 4,
-    "cost": 1,
+    "cost": 2,
     "stats": {
       "hp": 40,
       "atk": 29,
@@ -7912,7 +7912,7 @@ var data = `[{
   "417": {
     "name": "pachirisu",
     "gen": 4,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 60,
       "atk": 45,
@@ -7931,7 +7931,7 @@ var data = `[{
   "418": {
     "name": "buizel",
     "gen": 4,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 55,
       "atk": 65,
@@ -7968,7 +7968,7 @@ var data = `[{
   "420": {
     "name": "cherubi",
     "gen": 4,
-    "cost": 3,
+    "cost": 1,
     "stats": {
       "hp": 45,
       "atk": 35,
@@ -8061,7 +8061,7 @@ var data = `[{
   "425": {
     "name": "drifloon",
     "gen": 4,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 90,
       "atk": 50,
@@ -8100,7 +8100,7 @@ var data = `[{
   "427": {
     "name": "buneary",
     "gen": 4,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 55,
       "atk": 66,
@@ -8174,7 +8174,7 @@ var data = `[{
   "431": {
     "name": "glameow",
     "gen": 4,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 49,
       "atk": 55,
@@ -8211,7 +8211,7 @@ var data = `[{
   "433": {
     "name": "chingling",
     "gen": 4,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 45,
       "atk": 30,
@@ -8230,7 +8230,7 @@ var data = `[{
   "434": {
     "name": "stunky",
     "gen": 4,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 63,
       "atk": 63,
@@ -8308,7 +8308,7 @@ var data = `[{
   "438": {
     "name": "bonsly",
     "gen": 4,
-    "cost": 4,
+    "cost": 2,
     "stats": {
       "hp": 50,
       "atk": 80,
@@ -8327,7 +8327,7 @@ var data = `[{
   "439": {
     "name": "mime jr.",
     "gen": 4,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 20,
       "atk": 25,
@@ -8347,7 +8347,7 @@ var data = `[{
   "440": {
     "name": "happiny",
     "gen": 4,
-    "cost": 4,
+    "cost": 2,
     "stats": {
       "hp": 100,
       "atk": 5,
@@ -8366,7 +8366,7 @@ var data = `[{
   "441": {
     "name": "chatot",
     "gen": 4,
-    "cost": 4,
+    "cost": 2,
     "stats": {
       "hp": 76,
       "atk": 65,
@@ -8386,7 +8386,7 @@ var data = `[{
   "442": {
     "name": "spiritomb",
     "gen": 4,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 50,
       "atk": 92,
@@ -8483,7 +8483,7 @@ var data = `[{
   "447": {
     "name": "riolu",
     "gen": 4,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 40,
       "atk": 70,
@@ -8597,7 +8597,7 @@ var data = `[{
   "453": {
     "name": "croagunk",
     "gen": 4,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 48,
       "atk": 61,
@@ -8636,7 +8636,7 @@ var data = `[{
   "455": {
     "name": "carnivine",
     "gen": 4,
-    "cost": 4,
+    "cost": 2,
     "stats": {
       "hp": 74,
       "atk": 100,
@@ -8655,7 +8655,7 @@ var data = `[{
   "456": {
     "name": "finneon",
     "gen": 4,
-    "cost": 3,
+    "cost": 1,
     "stats": {
       "hp": 49,
       "atk": 49,
@@ -8692,7 +8692,7 @@ var data = `[{
   "458": {
     "name": "mantyke",
     "gen": 4,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 45,
       "atk": 20,
@@ -8712,7 +8712,7 @@ var data = `[{
   "459": {
     "name": "snover",
     "gen": 4,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 60,
       "atk": 62,
@@ -9562,7 +9562,7 @@ var data = `[{
   "504": {
     "name": "patrat",
     "gen": 5,
-    "cost": 2,
+    "cost": 1,
     "stats": {
       "hp": 45,
       "atk": 55,
@@ -9654,7 +9654,7 @@ var data = `[{
   "509": {
     "name": "purrloin",
     "gen": 5,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 41,
       "atk": 50,
@@ -9691,7 +9691,7 @@ var data = `[{
   "511": {
     "name": "pansage",
     "gen": 5,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 50,
       "atk": 53,
@@ -9728,7 +9728,7 @@ var data = `[{
   "513": {
     "name": "pansear",
     "gen": 5,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 50,
       "atk": 53,
@@ -9765,7 +9765,7 @@ var data = `[{
   "515": {
     "name": "panpour",
     "gen": 5,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 50,
       "atk": 53,
@@ -9802,7 +9802,7 @@ var data = `[{
   "517": {
     "name": "munna",
     "gen": 5,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 76,
       "atk": 25,
@@ -9839,7 +9839,7 @@ var data = `[{
   "519": {
     "name": "pidove",
     "gen": 5,
-    "cost": 2,
+    "cost": 1,
     "stats": {
       "hp": 50,
       "atk": 55,
@@ -9897,7 +9897,7 @@ var data = `[{
   "522": {
     "name": "blitzle",
     "gen": 5,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 45,
       "atk": 60,
@@ -10066,7 +10066,7 @@ var data = `[{
   "531": {
     "name": "audino",
     "gen": 5,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 103,
       "atk": 60,
@@ -10085,7 +10085,7 @@ var data = `[{
   "532": {
     "name": "timburr",
     "gen": 5,
-    "cost": 3,
+    "cost": 4,
     "stats": {
       "hp": 75,
       "atk": 80,
@@ -10197,7 +10197,7 @@ var data = `[{
   "538": {
     "name": "throh",
     "gen": 5,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 120,
       "atk": 100,
@@ -10216,7 +10216,7 @@ var data = `[{
   "539": {
     "name": "sawk",
     "gen": 5,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 75,
       "atk": 125,
@@ -10235,7 +10235,7 @@ var data = `[{
   "540": {
     "name": "sewaddle",
     "gen": 5,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 45,
       "atk": 53,
@@ -10446,7 +10446,7 @@ var data = `[{
   "551": {
     "name": "sandile",
     "gen": 5,
-    "cost": 3,
+    "cost": 4,
     "stats": {
       "hp": 50,
       "atk": 72,
@@ -10541,7 +10541,7 @@ var data = `[{
   "556": {
     "name": "maractus",
     "gen": 5,
-    "cost": 4,
+    "cost": 2,
     "stats": {
       "hp": 75,
       "atk": 86,
@@ -10560,7 +10560,7 @@ var data = `[{
   "557": {
     "name": "dwebble",
     "gen": 5,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 50,
       "atk": 65,
@@ -10638,7 +10638,7 @@ var data = `[{
   "561": {
     "name": "sigilyph",
     "gen": 5,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 72,
       "atk": 58,
@@ -10695,7 +10695,7 @@ var data = `[{
   "564": {
     "name": "tirtouga",
     "gen": 5,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 54,
       "atk": 78,
@@ -10734,7 +10734,7 @@ var data = `[{
   "566": {
     "name": "archen",
     "gen": 5,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 55,
       "atk": 112,
@@ -10773,7 +10773,7 @@ var data = `[{
   "568": {
     "name": "trubbish",
     "gen": 5,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 50,
       "atk": 50,
@@ -10994,7 +10994,7 @@ var data = `[{
   "580": {
     "name": "ducklett",
     "gen": 5,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 62,
       "atk": 44,
@@ -11088,7 +11088,7 @@ var data = `[{
   "585": {
     "name": "deerling",
     "gen": 5,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 60,
       "atk": 60,
@@ -11127,7 +11127,7 @@ var data = `[{
   "587": {
     "name": "emolga",
     "gen": 5,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 55,
       "atk": 75,
@@ -11185,7 +11185,7 @@ var data = `[{
   "590": {
     "name": "foongus",
     "gen": 5,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 69,
       "atk": 55,
@@ -11415,7 +11415,7 @@ var data = `[{
   "602": {
     "name": "tynamo",
     "gen": 5,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 35,
       "atk": 55,
@@ -11470,7 +11470,7 @@ var data = `[{
   "605": {
     "name": "elgyem",
     "gen": 5,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 55,
       "atk": 55,
@@ -11620,7 +11620,7 @@ var data = `[{
   "613": {
     "name": "cubchoo",
     "gen": 5,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 55,
       "atk": 70,
@@ -11657,7 +11657,7 @@ var data = `[{
   "615": {
     "name": "cryogonal",
     "gen": 5,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 80,
       "atk": 50,
@@ -11676,7 +11676,7 @@ var data = `[{
   "616": {
     "name": "shelmet",
     "gen": 5,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 50,
       "atk": 40,
@@ -11713,7 +11713,7 @@ var data = `[{
   "618": {
     "name": "stunfisk",
     "gen": 5,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 109,
       "atk": 66,
@@ -11770,7 +11770,7 @@ var data = `[{
   "621": {
     "name": "druddigon",
     "gen": 5,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 77,
       "atk": 120,
@@ -11867,7 +11867,7 @@ var data = `[{
   "626": {
     "name": "bouffalant",
     "gen": 5,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 95,
       "atk": 110,
@@ -11964,7 +11964,7 @@ var data = `[{
   "631": {
     "name": "heatmor",
     "gen": 5,
-    "cost": 5,
+    "cost": 3,
     "stats": {
       "hp": 85,
       "atk": 97,
@@ -11983,7 +11983,7 @@ var data = `[{
   "632": {
     "name": "durant",
     "gen": 5,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 58,
       "atk": 109,
@@ -12451,7 +12451,7 @@ var data = `[{
   "656": {
     "name": "froakie",
     "gen": 6,
-    "cost": 3,
+    "cost": 4,
     "stats": {
       "hp": 41,
       "atk": 56,
@@ -12507,7 +12507,7 @@ var data = `[{
   "659": {
     "name": "bunnelby",
     "gen": 6,
-    "cost": 2,
+    "cost": 3,
     "stats": {
       "hp": 38,
       "atk": 36,
@@ -12603,7 +12603,7 @@ var data = `[{
   "664": {
     "name": "scatterbug",
     "gen": 6,
-    "cost": 1,
+    "cost": 2,
     "stats": {
       "hp": 38,
       "atk": 35,
@@ -12659,7 +12659,7 @@ var data = `[{
   "667": {
     "name": "litleo",
     "gen": 6,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 62,
       "atk": 50,
@@ -12753,7 +12753,7 @@ var data = `[{
   "672": {
     "name": "skiddo",
     "gen": 6,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 66,
       "atk": 65,
@@ -12828,7 +12828,7 @@ var data = `[{
   "676": {
     "name": "furfrou",
     "gen": 6,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 75,
       "atk": 80,
@@ -12847,7 +12847,7 @@ var data = `[{
   "677": {
     "name": "espurr",
     "gen": 6,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 62,
       "atk": 48,
@@ -12942,7 +12942,7 @@ var data = `[{
   "682": {
     "name": "spritzee",
     "gen": 6,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 78,
       "atk": 52,
@@ -13094,7 +13094,7 @@ var data = `[{
   "690": {
     "name": "skrelp",
     "gen": 6,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 50,
       "atk": 60,
@@ -13325,7 +13325,7 @@ var data = `[{
   "702": {
     "name": "dedenne",
     "gen": 6,
-    "cost": 4,
+    "cost": 2,
     "stats": {
       "hp": 67,
       "atk": 58,
@@ -13345,7 +13345,7 @@ var data = `[{
   "703": {
     "name": "carbink",
     "gen": 6,
-    "cost": 4,
+    "cost": 2,
     "stats": {
       "hp": 50,
       "atk": 50,
@@ -13420,7 +13420,7 @@ var data = `[{
   "707": {
     "name": "klefki",
     "gen": 6,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 57,
       "atk": 80,
@@ -13440,7 +13440,7 @@ var data = `[{
   "708": {
     "name": "phantump",
     "gen": 6,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 43,
       "atk": 70,
@@ -13479,7 +13479,7 @@ var data = `[{
   "710": {
     "name": "pumpkaboo",
     "gen": 6,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 49,
       "atk": 66,
@@ -13555,7 +13555,7 @@ var data = `[{
   "714": {
     "name": "noibat",
     "gen": 6,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 40,
       "atk": 30,
@@ -13827,7 +13827,7 @@ var data = `[{
   "728": {
     "name": "popplio",
     "gen": 7,
-    "cost": 3,
+    "cost": 4,
     "stats": {
       "hp": 50,
       "atk": 54,
@@ -13883,7 +13883,7 @@ var data = `[{
   "731": {
     "name": "pikipek",
     "gen": 7,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 35,
       "atk": 75,
@@ -13978,7 +13978,7 @@ var data = `[{
   "736": {
     "name": "grubbin",
     "gen": 7,
-    "cost": 2,
+    "cost": 3,
     "stats": {
       "hp": 47,
       "atk": 62,
@@ -14035,7 +14035,7 @@ var data = `[{
   "739": {
     "name": "crabrawler",
     "gen": 7,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 47,
       "atk": 82,
@@ -14169,7 +14169,7 @@ var data = `[{
   "746": {
     "name": "wishiwashi",
     "gen": 7,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 45,
       "atk": 20,
@@ -14188,7 +14188,7 @@ var data = `[{
   "747": {
     "name": "mareanie",
     "gen": 7,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 50,
       "atk": 53,
@@ -14303,7 +14303,7 @@ var data = `[{
   "753": {
     "name": "fomantis",
     "gen": 7,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 40,
       "atk": 55,
@@ -14340,7 +14340,7 @@ var data = `[{
   "755": {
     "name": "morelull",
     "gen": 7,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 40,
       "atk": 35,
@@ -14531,7 +14531,7 @@ var data = `[{
   "765": {
     "name": "oranguru",
     "gen": 7,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 90,
       "atk": 60,
@@ -14551,7 +14551,7 @@ var data = `[{
   "766": {
     "name": "passimian",
     "gen": 7,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 100,
       "atk": 120,
@@ -14648,7 +14648,7 @@ var data = `[{
   "771": {
     "name": "pyukumuku",
     "gen": 7,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 55,
       "atk": 60,
@@ -14704,7 +14704,7 @@ var data = `[{
   "774": {
     "name": "minior",
     "gen": 7,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 60,
       "atk": 60,
@@ -14724,7 +14724,7 @@ var data = `[{
   "775": {
     "name": "komala",
     "gen": 7,
-    "cost": 5,
+    "cost": 3,
     "stats": {
       "hp": 65,
       "atk": 115,
@@ -14743,7 +14743,7 @@ var data = `[{
   "776": {
     "name": "turtonator",
     "gen": 7,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 60,
       "atk": 78,
@@ -14763,7 +14763,7 @@ var data = `[{
   "777": {
     "name": "togedemaru",
     "gen": 7,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 65,
       "atk": 98,
@@ -14783,7 +14783,7 @@ var data = `[{
   "778": {
     "name": "mimikyu",
     "gen": 7,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 55,
       "atk": 90,
@@ -14803,7 +14803,7 @@ var data = `[{
   "779": {
     "name": "bruxish",
     "gen": 7,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 68,
       "atk": 105,
@@ -14823,7 +14823,7 @@ var data = `[{
   "780": {
     "name": "drampa",
     "gen": 7,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 78,
       "atk": 60,
@@ -14843,7 +14843,7 @@ var data = `[{
   "781": {
     "name": "dhelmise",
     "gen": 7,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 70,
       "atk": 131,
@@ -15462,7 +15462,7 @@ var data = `[{
   "813": {
     "name": "scorbunny",
     "gen": 8,
-    "cost": 3,
+    "cost": 4,
     "stats": {
       "hp": 50,
       "atk": 71,
@@ -15609,7 +15609,7 @@ var data = `[{
   "821": {
     "name": "rookidee",
     "gen": 8,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 38,
       "atk": 47,
@@ -15722,7 +15722,7 @@ var data = `[{
   "827": {
     "name": "nickit",
     "gen": 8,
-    "cost": 3,
+    "cost": 1,
     "stats": {
       "hp": 40,
       "atk": 28,
@@ -15759,7 +15759,7 @@ var data = `[{
   "829": {
     "name": "gossifleur",
     "gen": 8,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 40,
       "atk": 40,
@@ -15796,7 +15796,7 @@ var data = `[{
   "831": {
     "name": "wooloo",
     "gen": 8,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 42,
       "atk": 40,
@@ -15871,7 +15871,7 @@ var data = `[{
   "835": {
     "name": "yamper",
     "gen": 8,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 59,
       "atk": 45,
@@ -15965,7 +15965,7 @@ var data = `[{
   "840": {
     "name": "applin",
     "gen": 8,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 40,
       "atk": 40,
@@ -16195,7 +16195,7 @@ var data = `[{
   "852": {
     "name": "clobbopus",
     "gen": 8,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 50,
       "atk": 68,
@@ -16269,7 +16269,7 @@ var data = `[{
   "856": {
     "name": "hatenna",
     "gen": 8,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 42,
       "atk": 30,
@@ -16608,7 +16608,7 @@ var data = `[{
   "874": {
     "name": "stonjourner",
     "gen": 8,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 100,
       "atk": 125,
@@ -16627,7 +16627,7 @@ var data = `[{
   "875": {
     "name": "eiscue",
     "gen": 8,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 75,
       "atk": 80,
@@ -16646,7 +16646,7 @@ var data = `[{
   "876": {
     "name": "indeedee",
     "gen": 8,
-    "cost": 3,
+    "cost": 4,
     "stats": {
       "hp": 60,
       "atk": 65,
@@ -16686,7 +16686,7 @@ var data = `[{
   "878": {
     "name": "cufant",
     "gen": 8,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 72,
       "atk": 80,
@@ -16743,7 +16743,7 @@ var data = `[{
   "881": {
     "name": "arctozolt",
     "gen": 8,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 90,
       "atk": 100,
@@ -16783,7 +16783,7 @@ var data = `[{
   "883": {
     "name": "arctovish",
     "gen": 8,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 90,
       "atk": 90,
@@ -17227,7 +17227,7 @@ var data = `[{
   "906": {
     "name": "sprigatito",
     "gen": 9,
-    "cost": 3,
+    "cost": 4,
     "stats": {
       "hp": 40,
       "atk": 61,
@@ -17283,7 +17283,7 @@ var data = `[{
   "909": {
     "name": "fuecoco",
     "gen": 9,
-    "cost": 3,
+    "cost": 4,
     "stats": {
       "hp": 67,
       "atk": 45,
@@ -17339,7 +17339,7 @@ var data = `[{
   "912": {
     "name": "quaxly",
     "gen": 9,
-    "cost": 3,
+    "cost": 4,
     "stats": {
       "hp": 55,
       "atk": 65,
@@ -17601,7 +17601,7 @@ var data = `[{
   "926": {
     "name": "fidough",
     "gen": 9,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 37,
       "atk": 55,
@@ -17696,7 +17696,7 @@ var data = `[{
   "931": {
     "name": "squawkabilly",
     "gen": 9,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 82,
       "atk": 96,
@@ -17941,7 +17941,7 @@ var data = `[{
   "944": {
     "name": "shroodle",
     "gen": 9,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 40,
       "atk": 65,
@@ -18058,7 +18058,7 @@ var data = `[{
   "950": {
     "name": "klawf",
     "gen": 9,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 70,
       "atk": 100,
@@ -18115,7 +18115,7 @@ var data = `[{
   "953": {
     "name": "rellor",
     "gen": 9,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 41,
       "atk": 50,
@@ -18248,7 +18248,7 @@ var data = `[{
   "960": {
     "name": "wiglett",
     "gen": 9,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 10,
       "atk": 55,
@@ -18305,7 +18305,7 @@ var data = `[{
   "963": {
     "name": "finizen",
     "gen": 9,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 70,
       "atk": 45,
@@ -18381,7 +18381,7 @@ var data = `[{
   "967": {
     "name": "cyclizar",
     "gen": 9,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 70,
       "atk": 95,
@@ -18459,7 +18459,7 @@ var data = `[{
   "971": {
     "name": "greavard",
     "gen": 9,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 50,
       "atk": 61,
@@ -18516,7 +18516,7 @@ var data = `[{
   "974": {
     "name": "cetoddle",
     "gen": 9,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 108,
       "atk": 68,
@@ -18573,7 +18573,7 @@ var data = `[{
   "977": {
     "name": "dondozo",
     "gen": 9,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 150,
       "atk": 100,
@@ -18592,7 +18592,7 @@ var data = `[{
   "978": {
     "name": "tatsugiri",
     "gen": 9,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 68,
       "atk": 50,
@@ -18766,7 +18766,7 @@ var data = `[{
   "987": {
     "name": "flutter mane",
     "gen": 9,
-    "cost": 6,
+    "cost": 7,
     "stats": {
       "hp": 55,
       "atk": 55,
@@ -19004,7 +19004,7 @@ var data = `[{
   "999": {
     "name": "gimmighoul",
     "gen": 9,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 45,
       "atk": 30,
@@ -19536,7 +19536,7 @@ var data = `[{
   "2019": {
     "name": "alolan rattata",
     "gen": 7,
-    "cost": 2,
+    "cost": 1,
     "stats": {
       "hp": 30,
       "atk": 56,
@@ -19602,7 +19602,7 @@ var data = `[{
   "2027": {
     "name": "alolan sandshrew",
     "gen": 7,
-    "cost": 4,
+    "cost": 2,
     "stats": {
       "hp": 50,
       "atk": 75,
@@ -19646,7 +19646,7 @@ var data = `[{
   "2037": {
     "name": "alolan vulpix",
     "gen": 7,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 38,
       "atk": 41,
@@ -19689,7 +19689,7 @@ var data = `[{
   "2050": {
     "name": "alolan diglett",
     "gen": 7,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 10,
       "atk": 55,
@@ -19733,7 +19733,7 @@ var data = `[{
   "2052": {
     "name": "alolan meowth",
     "gen": 7,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 40,
       "atk": 35,
@@ -19929,7 +19929,7 @@ var data = `[{
   "2670": {
     "name": "eternal floette",
     "gen": 6,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 74,
       "atk": 65,
@@ -19949,7 +19949,7 @@ var data = `[{
   "4052": {
     "name": "galarian meowth",
     "gen": 8,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 50,
       "atk": 65,
@@ -19970,7 +19970,7 @@ var data = `[{
   "4077": {
     "name": "galarian ponyta",
     "gen": 8,
-    "cost": 4,
+    "cost": 2,
     "stats": {
       "hp": 50,
       "atk": 85,
@@ -20056,7 +20056,7 @@ var data = `[{
   "4083": {
     "name": "galarian farfetchd",
     "gen": 8,
-    "cost": 5,
+    "cost": 3,
     "stats": {
       "hp": 52,
       "atk": 95,
@@ -20099,7 +20099,7 @@ var data = `[{
   "4122": {
     "name": "galarian mr. mime",
     "gen": 8,
-    "cost": 5,
+    "cost": 3,
     "stats": {
       "hp": 50,
       "atk": 65,
@@ -20209,7 +20209,7 @@ var data = `[{
   "4222": {
     "name": "galarian corsola",
     "gen": 8,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 60,
       "atk": 55,
@@ -20338,7 +20338,7 @@ var data = `[{
   "4618": {
     "name": "galarian stunfisk",
     "gen": 8,
-    "cost": 4,
+    "cost": 2,
     "stats": {
       "hp": 109,
       "atk": 81,
@@ -20492,7 +20492,7 @@ var data = `[{
   "6215": {
     "name": "hisuian sneasel",
     "gen": 8,
-    "cost": 4,
+    "cost": 5,
     "stats": {
       "hp": 55,
       "atk": 95,
@@ -20558,7 +20558,7 @@ var data = `[{
   "6570": {
     "name": "hisuian zorua",
     "gen": 8,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 35,
       "atk": 60,
@@ -20755,7 +20755,7 @@ var data = `[{
   "8901": {
     "name": "bloodmoon ursaluna",
     "gen": 9,
-    "cost": 7,
+    "cost": 6,
     "stats": {
       "hp": 113,
       "atk": 70,
