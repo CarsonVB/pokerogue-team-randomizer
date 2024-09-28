@@ -9318,7 +9318,7 @@ var data = `[{
   "491": {
     "name": "darkrai",
     "gen": 4,
-    "cost": 6,
+    "cost": 7,
     "stats": {
       "hp": 70,
       "atk": 90,
@@ -12299,7 +12299,7 @@ var data = `[{
   "648": {
     "name": "meloetta",
     "gen": 5,
-    "cost": 6,
+    "cost": 7,
     "stats": {
       "hp": 100,
       "atk": 77,
@@ -15000,7 +15000,7 @@ var data = `[{
   "789": {
     "name": "cosmog",
     "gen": 7,
-    "cost": 6,
+    "cost": 7,
     "stats": {
       "hp": 43,
       "atk": 29,
