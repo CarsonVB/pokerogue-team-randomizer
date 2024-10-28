@@ -14,10 +14,10 @@ if response.status_code == 200:
 else:
     print('Failed to fetch existing pokedex data')
 
-response = requests.get('https://raw.githubusercontent.com/pagefaultgames/pokerogue/main/src/data/pokemon-species.ts')
+response = requests.get('https://raw.githubusercontent.com/pagefaultgames/pokerogue/main/src/data/balance/starters.ts')
 if response.status_code == 200:
     content = response.text
-    start = content.find("export const speciesStarters = ") + len("export const speciesStarters = ")
+    start = content.find("export const speciesStarterCosts = ") + len("export const speciesStarterCosts = ")
     end = content.find(";", start)
     parts = content[start:end].replace("[Species.", "\"").replace("]", "\"").rsplit(',')
     json_str = ",".join(parts[:-1]) + "\n}"
