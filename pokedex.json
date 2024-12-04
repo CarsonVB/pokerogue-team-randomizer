@@ -456,7 +456,7 @@ var data = `[{
   "25": {
     "name": "pikachu",
     "gen": 1,
-    "cost": 3,
+    "cost": 4,
     "stats": {
       "hp": 35,
       "atk": 55,
@@ -2082,7 +2082,7 @@ var data = `[{
   "111": {
     "name": "rhyhorn",
     "gen": 1,
-    "cost": 3,
+    "cost": 4,
     "stats": {
       "hp": 80,
       "atk": 85,
@@ -2712,7 +2712,7 @@ var data = `[{
   "144": {
     "name": "articuno",
     "gen": 1,
-    "cost": 6,
+    "cost": 5,
     "stats": {
       "hp": 90,
       "atk": 85,
@@ -2847,7 +2847,7 @@ var data = `[{
   "151": {
     "name": "mew",
     "gen": 1,
-    "cost": 6,
+    "cost": 5,
     "stats": {
       "hp": 100,
       "atk": 100,
@@ -3243,7 +3243,7 @@ var data = `[{
   "172": {
     "name": "pichu",
     "gen": 2,
-    "cost": 2,
+    "cost": 4,
     "stats": {
       "hp": 20,
       "atk": 40,
@@ -4753,7 +4753,7 @@ var data = `[{
   "251": {
     "name": "celebi",
     "gen": 2,
-    "cost": 6,
+    "cost": 5,
     "stats": {
       "hp": 100,
       "atk": 100,
@@ -5302,7 +5302,7 @@ var data = `[{
   "280": {
     "name": "ralts",
     "gen": 3,
-    "cost": 3,
+    "cost": 4,
     "stats": {
       "hp": 28,
       "atk": 25,
@@ -5738,7 +5738,7 @@ var data = `[{
   "303": {
     "name": "mawile",
     "gen": 3,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 50,
       "atk": 85,
@@ -7169,7 +7169,7 @@ var data = `[{
   "378": {
     "name": "regice",
     "gen": 3,
-    "cost": 6,
+    "cost": 5,
     "stats": {
       "hp": 80,
       "atk": 50,
@@ -9105,7 +9105,7 @@ var data = `[{
   "480": {
     "name": "uxie",
     "gen": 4,
-    "cost": 6,
+    "cost": 5,
     "stats": {
       "hp": 75,
       "atk": 75,
@@ -9124,7 +9124,7 @@ var data = `[{
   "481": {
     "name": "mesprit",
     "gen": 4,
-    "cost": 6,
+    "cost": 5,
     "stats": {
       "hp": 80,
       "atk": 105,
@@ -9202,7 +9202,7 @@ var data = `[{
   "485": {
     "name": "heatran",
     "gen": 4,
-    "cost": 6,
+    "cost": 7,
     "stats": {
       "hp": 91,
       "atk": 90,
@@ -9337,7 +9337,7 @@ var data = `[{
   "492": {
     "name": "shaymin",
     "gen": 4,
-    "cost": 6,
+    "cost": 5,
     "stats": {
       "hp": 100,
       "atk": 100,
@@ -11185,7 +11185,7 @@ var data = `[{
   "590": {
     "name": "foongus",
     "gen": 5,
-    "cost": 2,
+    "cost": 3,
     "stats": {
       "hp": 69,
       "atk": 55,
@@ -13248,7 +13248,7 @@ var data = `[{
   "698": {
     "name": "amaura",
     "gen": 6,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 77,
       "atk": 59,
@@ -13693,7 +13693,7 @@ var data = `[{
   "721": {
     "name": "volcanion",
     "gen": 6,
-    "cost": 6,
+    "cost": 7,
     "stats": {
       "hp": 80,
       "atk": 110,
@@ -14940,7 +14940,7 @@ var data = `[{
   "786": {
     "name": "tapu lele",
     "gen": 7,
-    "cost": 6,
+    "cost": 7,
     "stats": {
       "hp": 70,
       "atk": 85,
@@ -14980,7 +14980,7 @@ var data = `[{
   "788": {
     "name": "tapu fini",
     "gen": 7,
-    "cost": 6,
+    "cost": 5,
     "stats": {
       "hp": 70,
       "atk": 75,
@@ -15174,7 +15174,7 @@ var data = `[{
   "798": {
     "name": "kartana",
     "gen": 7,
-    "cost": 7,
+    "cost": 8,
     "stats": {
       "hp": 59,
       "atk": 181,
@@ -15273,7 +15273,7 @@ var data = `[{
   "803": {
     "name": "poipole",
     "gen": 7,
-    "cost": 7,
+    "cost": 8,
     "stats": {
       "hp": 67,
       "atk": 73,
@@ -16977,7 +16977,7 @@ var data = `[{
   "893": {
     "name": "zarude",
     "gen": 8,
-    "cost": 6,
+    "cost": 5,
     "stats": {
       "hp": 105,
       "atk": 120,
@@ -17054,7 +17054,7 @@ var data = `[{
   "897": {
     "name": "spectrier",
     "gen": 8,
-    "cost": 7,
+    "cost": 8,
     "stats": {
       "hp": 100,
       "atk": 65,
@@ -18706,7 +18706,7 @@ var data = `[{
   "984": {
     "name": "great tusk",
     "gen": 9,
-    "cost": 6,
+    "cost": 7,
     "stats": {
       "hp": 115,
       "atk": 131,
@@ -18726,7 +18726,7 @@ var data = `[{
   "985": {
     "name": "scream tail",
     "gen": 9,
-    "cost": 6,
+    "cost": 5,
     "stats": {
       "hp": 115,
       "atk": 65,
@@ -18746,7 +18746,7 @@ var data = `[{
   "986": {
     "name": "brute bonnet",
     "gen": 9,
-    "cost": 6,
+    "cost": 5,
     "stats": {
       "hp": 111,
       "atk": 127,
@@ -18926,7 +18926,7 @@ var data = `[{
   "995": {
     "name": "iron thorns",
     "gen": 9,
-    "cost": 6,
+    "cost": 5,
     "stats": {
       "hp": 100,
       "atk": 134,
@@ -19042,7 +19042,7 @@ var data = `[{
   "1001": {
     "name": "wo-chien",
     "gen": 9,
-    "cost": 6,
+    "cost": 5,
     "stats": {
       "hp": 85,
       "atk": 85,
@@ -19122,7 +19122,7 @@ var data = `[{
   "1005": {
     "name": "roaring moon",
     "gen": 9,
-    "cost": 6,
+    "cost": 7,
     "stats": {
       "hp": 105,
       "atk": 139,
@@ -19202,7 +19202,7 @@ var data = `[{
   "1009": {
     "name": "walking wake",
     "gen": 9,
-    "cost": 6,
+    "cost": 7,
     "stats": {
       "hp": 99,
       "atk": 83,
@@ -19340,7 +19340,7 @@ var data = `[{
   "1016": {
     "name": "fezandipiti",
     "gen": 9,
-    "cost": 6,
+    "cost": 5,
     "stats": {
       "hp": 88,
       "atk": 91,
@@ -19437,7 +19437,7 @@ var data = `[{
   "1021": {
     "name": "raging bolt",
     "gen": 9,
-    "cost": 6,
+    "cost": 7,
     "stats": {
       "hp": 125,
       "atk": 73,
@@ -19477,7 +19477,7 @@ var data = `[{
   "1023": {
     "name": "iron crown",
     "gen": 9,
-    "cost": 6,
+    "cost": 7,
     "stats": {
       "hp": 90,
       "atk": 72,
@@ -20755,7 +20755,7 @@ var data = `[{
   "8901": {
     "name": "bloodmoon ursaluna",
     "gen": 9,
-    "cost": 6,
+    "cost": 5,
     "stats": {
       "hp": 113,
       "atk": 70,
