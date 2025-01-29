@@ -20116,7 +20116,7 @@ var data = `[{
     "pr_num": 122,
     "pr_name": "GALAR_MR_MIME",
     "form": "f2",
-    "starter": true
+    "starter": false
   },
   "4144": {
     "name": "galarian articuno",
