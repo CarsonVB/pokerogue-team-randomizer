@@ -651,7 +651,7 @@ var data = `[{
       "spd": 65,
       "spe": 35
     },
-    "starter": true,
+    "starter": false,
     "attack": "special",
     "types": [
       "fairy"
@@ -725,7 +725,7 @@ var data = `[{
       "spd": 25,
       "spe": 20
     },
-    "starter": true,
+    "starter": false,
     "attack": "mixed",
     "types": [
       "normal",
@@ -1997,7 +1997,7 @@ var data = `[{
       "spd": 110,
       "spe": 87
     },
-    "starter": true,
+    "starter": false,
     "attack": "physical",
     "types": [
       "fighting"
@@ -2016,7 +2016,7 @@ var data = `[{
       "spd": 110,
       "spe": 76
     },
-    "starter": true,
+    "starter": false,
     "attack": "physical",
     "types": [
       "fighting"
@@ -2130,7 +2130,7 @@ var data = `[{
       "spd": 105,
       "spe": 50
     },
-    "starter": true,
+    "starter": false,
     "attack": "special",
     "types": [
       "normal"
@@ -2299,7 +2299,7 @@ var data = `[{
       "spd": 120,
       "spe": 90
     },
-    "starter": true,
+    "starter": false,
     "attack": "special",
     "types": [
       "psychic",
@@ -2339,7 +2339,7 @@ var data = `[{
       "spd": 95,
       "spe": 95
     },
-    "starter": true,
+    "starter": false,
     "attack": "special",
     "types": [
       "ice",
@@ -2359,7 +2359,7 @@ var data = `[{
       "spd": 85,
       "spe": 105
     },
-    "starter": true,
+    "starter": false,
     "attack": "special",
     "types": [
       "electric"
@@ -2378,7 +2378,7 @@ var data = `[{
       "spd": 85,
       "spe": 93
     },
-    "starter": true,
+    "starter": false,
     "attack": "special",
     "types": [
       "fire"
@@ -2702,7 +2702,7 @@ var data = `[{
       "spd": 110,
       "spe": 30
     },
-    "starter": true,
+    "starter": false,
     "attack": "physical",
     "types": [
       "normal"
@@ -3460,7 +3460,7 @@ var data = `[{
       "spd": 50,
       "spe": 40
     },
-    "starter": true,
+    "starter": false,
     "attack": "mixed",
     "types": [
       "water",
@@ -3499,7 +3499,7 @@ var data = `[{
       "spd": 65,
       "spe": 30
     },
-    "starter": true,
+    "starter": false,
     "attack": "physical",
     "types": [
       "rock"
@@ -3822,7 +3822,7 @@ var data = `[{
       "spd": 58,
       "spe": 33
     },
-    "starter": true,
+    "starter": false,
     "attack": "mixed",
     "types": [
       "psychic"
@@ -4284,7 +4284,7 @@ var data = `[{
       "spd": 140,
       "spe": 70
     },
-    "starter": true,
+    "starter": false,
     "attack": "special",
     "types": [
       "water",
@@ -5977,7 +5977,7 @@ var data = `[{
       "spd": 80,
       "spe": 65
     },
-    "starter": true,
+    "starter": false,
     "attack": "special",
     "types": [
       "grass",
@@ -6799,7 +6799,7 @@ var data = `[{
       "spd": 90,
       "spe": 65
     },
-    "starter": true,
+    "starter": false,
     "attack": "special",
     "types": [
       "psychic"
