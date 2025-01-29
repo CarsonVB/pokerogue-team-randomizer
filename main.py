@@ -4,7 +4,7 @@ import requests
 pokedex = {}
 costs = {}
 
-response = requests.get('https://raw.githubusercontent.com/CarsonVB/pokerogue-team-randomizer/main/pokedex.json')
+response = requests.get('https://raw.githubusercontent.com/CarsonVB/pokerogue-team-randomizer/refs/heads/main/pokedex.json')
 if response.status_code == 200:
     content = response.text
     start = content.find("var data = `[") + len("var data = `[")
