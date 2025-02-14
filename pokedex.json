@@ -3775,7 +3775,7 @@ var data = `[{
   "200": {
     "name": "misdreavus",
     "gen": 2,
-    "cost": 2,
+    "cost": 3,
     "stats": {
       "hp": 60,
       "atk": 60,
@@ -7740,7 +7740,7 @@ var data = `[{
   "408": {
     "name": "cranidos",
     "gen": 4,
-    "cost": 3,
+    "cost": 2,
     "stats": {
       "hp": 67,
       "atk": 125,
@@ -9085,7 +9085,7 @@ var data = `[{
   "479": {
     "name": "rotom",
     "gen": 4,
-    "cost": 5,
+    "cost": 4,
     "stats": {
       "hp": 50,
       "atk": 50,
@@ -9337,7 +9337,7 @@ var data = `[{
   "492": {
     "name": "shaymin",
     "gen": 4,
-    "cost": 5,
+    "cost": 6,
     "stats": {
       "hp": 100,
       "atk": 100,
