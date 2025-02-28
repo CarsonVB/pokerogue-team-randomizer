@@ -9375,7 +9375,7 @@ var data = `[{
   "494": {
     "name": "victini",
     "gen": 5,
-    "cost": 7,
+    "cost": 6,
     "stats": {
       "hp": 100,
       "atk": 100,
@@ -15253,7 +15253,7 @@ var data = `[{
   "802": {
     "name": "marshadow",
     "gen": 7,
-    "cost": 7,
+    "cost": 8,
     "stats": {
       "hp": 90,
       "atk": 125,
@@ -19497,7 +19497,7 @@ var data = `[{
   "1024": {
     "name": "terapagos",
     "gen": 9,
-    "cost": 8,
+    "cost": 9,
     "stats": {
       "hp": 90,
       "atk": 65,
