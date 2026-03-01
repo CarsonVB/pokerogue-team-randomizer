@@ -7305,7 +7305,7 @@ var data = `[{
   "385": {
     "name": "jirachi",
     "gen": 3,
-    "cost": 7,
+    "cost": 6,
     "stats": {
       "hp": 100,
       "atk": 100,
@@ -7325,7 +7325,7 @@ var data = `[{
   "386": {
     "name": "deoxys",
     "gen": 3,
-    "cost": 7,
+    "cost": 6,
     "stats": {
       "hp": 50,
       "atk": 150,
@@ -10560,7 +10560,7 @@ var data = `[{
   "557": {
     "name": "dwebble",
     "gen": 5,
-    "cost": 2,
+    "cost": 3,
     "stats": {
       "hp": 50,
       "atk": 65,
@@ -11263,7 +11263,7 @@ var data = `[{
   "594": {
     "name": "alomomola",
     "gen": 5,
-    "cost": 4,
+    "cost": 3,
     "stats": {
       "hp": 165,
       "atk": 75,
@@ -12120,7 +12120,7 @@ var data = `[{
   "639": {
     "name": "terrakion",
     "gen": 5,
-    "cost": 6,
+    "cost": 7,
     "stats": {
       "hp": 91,
       "atk": 129,
@@ -12160,7 +12160,7 @@ var data = `[{
   "641": {
     "name": "tornadus",
     "gen": 5,
-    "cost": 7,
+    "cost": 6,
     "stats": {
       "hp": 79,
       "atk": 115,
@@ -14980,7 +14980,7 @@ var data = `[{
   "788": {
     "name": "tapu fini",
     "gen": 7,
-    "cost": 5,
+    "cost": 6,
     "stats": {
       "hp": 70,
       "atk": 75,
@@ -15273,7 +15273,7 @@ var data = `[{
   "803": {
     "name": "poipole",
     "gen": 7,
-    "cost": 8,
+    "cost": 7,
     "stats": {
       "hp": 67,
       "atk": 73,
@@ -17207,7 +17207,7 @@ var data = `[{
   "905": {
     "name": "enamorus",
     "gen": 8,
-    "cost": 7,
+    "cost": 6,
     "stats": {
       "hp": 74,
       "atk": 115,
@@ -18285,7 +18285,7 @@ var data = `[{
   "962": {
     "name": "bombirdier",
     "gen": 9,
-    "cost": 3,
+    "cost": 4,
     "stats": {
       "hp": 70,
       "atk": 103,
@@ -19516,7 +19516,7 @@ var data = `[{
   "1025": {
     "name": "pecharunt",
     "gen": 9,
-    "cost": 6,
+    "cost": 5,
     "stats": {
       "hp": 88,
       "atk": 88,
