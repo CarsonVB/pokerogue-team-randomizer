@@ -19,7 +19,7 @@ if response.status_code == 200:
     content = response.text
     start = content.find("export const speciesStarterCosts = ") + len("export const speciesStarterCosts = ")
     end = content.find(";", start)
-    parts = content[start:end].replace("[Species.", "\"").replace("]", "\"").rsplit(',')
+    parts = content[start:end].replace("[SpeciesId.", "\"").replace("]", "\"").rsplit(',')
     json_str = ",".join(parts[:-1]) + "\n}"
     costs = json.loads(json_str)
 else:
